@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavora con Noi - Dalmass Plastik s.n.c.</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .bg-midnight-blue { background-color: #0d1b2a; }
+        .text-midnight-blue { color: #0d1b2a; }
+        .border-brand-red { border-color: #d90429; }
+        .bg-brand-red { background-color: #d90429; }
+        .text-brand-red { color: #d90429; }
+        html { scroll-behavior: smooth; }
+
+        .hero-lavora {
+            background: linear-gradient(rgba(13, 27, 42, 0.7), rgba(13, 27, 42, 0.7)), url('https://placehold.co/1920x600/cccccc/ffffff?text=Entra+nel+Team') center center/cover no-repeat;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div>
+                <a href="indexSitoDalmass.html"><img src="img/logo.png" alt="Logo Dalmass Plastik" class="h-12 w-auto" onerror="this.onerror=null;this.src='https://placehold.co/200x50/ffffff/000000?text=Dalmass+Plastik';"></a>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="indexSitoDalmass.html#home" class="text-gray-700 hover:text-brand-red transition duration-300 font-medium">HOME</a>
+                <a href="prodotti.html" class="text-gray-700 hover:text-brand-red transition duration-300 font-medium">PRODUZIONE</a>
+			
+                <a href="indexSitoDalmass.html#contatti" class="text-gray-700 hover:text-brand-red transition duration-300 font-medium">CONTATTI</a>
+                <a href="lavora_con_noi.html" class="text-brand-red border-b-2 border-brand-red pb-1 font-medium">LAVORA CON NOI</a>
+                <a href="indexSitoDalmass.html#privacy" class="text-gray-700 hover:text-brand-red transition duration-300 font-medium">PRIVACY</a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-700 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-4">
+            <a href="indexSitoDalmass.html#home" class="block text-center text-gray-700 py-2 hover:bg-gray-100">HOME</a>
+            <a href="prodotti.html" class="block text-center text-gray-700 py-2 hover:bg-gray-100">PRODUZIONE</a>
+            <a href="indexSitoDalmass.html#contatti" class="block text-center text-gray-700 py-2 hover:bg-gray-100">CONTATTI</a>
+            <a href="lavora_con_noi.html" class="block text-center text-gray-700 py-2 hover:bg-gray-100">LAVORA CON NOI</a>
+            <a href="indexSitoDalmass.html#privacy" class="block text-center text-gray-700 py-2 hover:bg-gray-100">PRIVACY</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-lavora w-full h-96 flex items-center justify-center text-white">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold">Lavora con Noi</h1>
+                <p class="text-xl mt-4">Entra a far parte di un team dinamico e in crescita.</p>
+            </div>
+        </section>
+
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold text-midnight-blue">La Tua Carriera Inizia Qui</h2>
+                <div class="w-24 h-1 bg-brand-red mx-auto mt-4 mb-6"></div>
+                <p class="text-gray-600 max-w-3xl mx-auto text-lg">
+                    In Dalmass Plastik crediamo che le persone siano il cuore del nostro successo. Siamo costantemente alla ricerca di talenti motivati e appassionati che desiderano crescere professionalmente in un ambiente innovativo e stimolante. Se condividi i nostri valori di qualità, efficienza e innovazione, potresti essere la persona giusta per noi.
+                </p>
+            </div>
+        </section>
+
+        <section class="py-10 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <div class="bg-gradient-to-r from-red-600 to-orange-500 rounded-lg shadow-lg p-0.5 transform hover:-translate-y-1 transition-transform duration-300">
+                        <div class="bg-white rounded-md p-2">
+                            <img src="img/interno.png" alt="Interno dello stabilimento produttivo Dalmass Plastik" class="rounded-md w-full h-auto object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/e0e0e0/ffffff?text=Interno+Azienda';">
+                            <p class="text-center text-sm text-gray-600 mt-2 font-medium">Il Nostro Reparto Produttivo</p>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-r from-red-600 to-orange-500 rounded-lg shadow-lg p-0.5 transform hover:-translate-y-1 transition-transform duration-300">
+                        <div class="bg-white rounded-md p-2">
+                             <img src="img/esterno.png" alt="Esterno della sede Dalmass Plastik" class="rounded-md w-full h-auto object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x400/e0e0e0/ffffff?text=Esterno+Azienda';">
+                            <p class="text-center text-sm text-gray-600 mt-2 font-medium">La Nostra Sede a Montecchio Maggiore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-midnight-blue">Posizioni Aperte</h2>
+                    <p class="text-gray-600 mt-2">Scopri le opportunità professionali attualmente disponibili.</p>
+                </div>
+                <div class="max-w-4xl mx-auto space-y-8">
+                    <div class="bg-white p-8 rounded-lg shadow-lg border-l-4 border-brand-red">
+                        <h3 class="text-2xl font-bold text-midnight-blue mb-2">Operai per Stampaggio Plastico</h3>
+                        <p class="text-gray-500 mb-4">Montecchio Maggiore (VI) | Tempo Pieno</p>
+                        <p class="text-gray-700">
+                            Per la nostra sede di Montecchio Maggiore (VI), ricerchiamo un Operatore Specializzato per il reparto produttivo. La figura sarà responsabile del ciclo completo di stampaggio, inclusi l'attrezzaggio delle presse, la programmazione dei robot di asservimento e il controllo qualità. Cerchiamo candidati con esperienza, precisione e attitudine al lavoro di squadra da inserire in un'azienda solida e in crescita.
+                        </p>
+                    </div>
+                     <div class="bg-white p-8 rounded-lg shadow-lg border-l-4 border-brand-red">
+                        <h3 class="text-2xl font-bold text-midnight-blue mb-2">Addetto alle vendite</h3>
+                        <p class="text-gray-500 mb-4">Nord Italia | Tempo Pieno</p>
+                        <p class="text-gray-700">
+                            Ricerchiamo un/una Addetto/a Commerciale per la nostra sede di Montecchio Maggiore (VI). La figura si occuperà della gestione dei clienti e dello sviluppo di nuove opportunità di business, con disponibilità a spostamenti in autovettura in tutto il Veneto. Sono richieste esperienza pregressa nel ruolo, ottime capacità di comunicazione e un forte orientamento al cliente. Entra a far parte di un team dinamico in un'azienda leader di settore.
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-lg shadow-lg border-l-4 border-brand-red">
+                        <h3 class="text-2xl font-bold text-midnight-blue mb-2">Agente Commerciale</h3>
+                        <p class="text-gray-500 mb-4">Zona Tento - Bolzano | Tempo Pieno</p>
+                        <p class="text-gray-700">
+                            Per l'ampliamento della nostra rete vendita, ricerchiamo un Agente di Commercio per le zone di Bolzano e Trento. Il candidato, anche plurimandatario, si occuperà della vendita dei nostri prodotti tecnici nel settore dello stampaggio plastico. Richiesta esperienza nel settore industriale e forte attitudine commerciale. Offriamo un mandato di sicuro interesse in un'azienda consolidata e in crescita.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="form-candidatura" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-midnight-blue">Invia la tua Candidatura</h2>
+                    <p class="text-gray-600 mt-2">Non hai trovato la posizione che cercavi? Inviaci una candidatura spontanea!</p>
+                </div>
+                <div class="max-w-4xl mx-auto bg-gray-50 p-8 rounded-lg shadow-lg">
+                     <form id ="form_candidatura" action="https://formsubmit.co/info.dalmassplastik@gmail.com" method="POST" class="space-y-6" enctype="multipart/form-data">
+                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="nome" class="block text-sm font-medium text-gray-700 mb-1">Nome</label>
+                                <input type="text" id="nome" name="nome" required class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-red">
+                            </div>
+                            <div>
+                                <label for="cognome" class="block text-sm font-medium text-gray-700 mb-1">Cognome</label>
+                                <input type="text" id="cognome" name="cognome" required class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-red">
+                            </div>
+                        </div>
+                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                                <input type="email" id="email" name="email" required class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-red">
+                            </div>
+                            <div>
+                                <label for="telefono" class="block text-sm font-medium text-gray-700 mb-1">Telefono</label>
+                                <input type="tel" id="telefono" name="telefono" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-red">
+                            </div>
+                        </div>
+                        <div>
+                           <label for="posizione" class="block text-sm font-medium text-gray-700 mb-1">Posizione di Interesse</label>
+                           <select id="posizione" name="posizione" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-red">
+                                <option>Candidatura Spontanea</option>
+                                <option>Operaio Specializzato</option>
+                                <option>Addetto alle vendite</option>
+                                <option>Agente Commerciale</option>
+                           </select>
+                        </div>
+                         <div>
+                            <label for="cv" class="block text-sm font-medium text-gray-700 mb-1">Carica il tuo CV (PDF, max 5MB)</label>
+                            <input type="file" id="cv" name="cv" accept=".pdf" required class="w-full p-2 border border-gray-300 rounded-md text-sm text-gray-600 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-red-50 file:text-brand-red hover:file:bg-red-100">
+                        </div>
+                        <div>
+                            <label for="messaggio" class="block text-sm font-medium text-gray-700 mb-1">Lettera di Presentazione / Messaggio</label>
+                            <textarea id="messaggio" name="messaggio" rows="5" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-red"></textarea>
+                        </div>
+                        <div class="flex items-start">
+                            <input id="privacy-check" name="privacy-check" type="checkbox" required class="h-4 w-4 text-brand-red border-gray-300 rounded focus:ring-brand-red mt-1">
+                            <div class="ml-3 text-sm">
+                                <label for="privacy-check" class="text-gray-700">Ho letto e accetto l'<a href="indexSitoDalmass.html#privacy" class="text-brand-red hover:underline" target="_blank">informativa sulla privacy</a> per il trattamento dei miei dati personali.</label>
+                            </div>
+                        </div>
+                        <div>
+                            <button id ="submitButton"type="submit" class="w-full bg-brand-red text-white font-bold py-3 px-6 rounded-md hover:bg-red-700 transition-colors duration-300 flex items-center justify-center">
+                                <ion-icon name="send-outline" class="mr-2"></ion-icon>
+                                Invia Candidatura
+                            </button>
+                        </div>
+                       </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- SEZIONE FOOTER -->
+    <footer class="bg-midnight-blue text-white pt-16 pb-8">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <!-- Colonna 1: Logo e Info -->
+                <div class="md:col-span-1">
+                    <a href="indexSitoDalmass.html"><img src="img/logo.png" alt="Logo Dalmass Plastik" class="h-12 mb-4 bg-white p-2 rounded" onerror="this.onerror=null;this.src='https://placehold.co/200x50/ffffff/000000?text=Dalmass+Plastik';"></a>
+                    <p class="text-gray-400">Leader nella produzione e lavorazione di materie plastiche su misura.</p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Link Rapidi</h4>
+                    <ul>
+                        <li class="mb-2"><a href="indexSitoDalmass.html#home" class="hover:text-brand-red transition-colors">Home</a></li>
+                        <li class="mb-2"><a href="prodotti.html" class="hover:text-brand-red transition-colors">Produzione</a></li>
+                        <li class="mb-2"><a href="indexSitoDalmass.html#contatti" class="hover:text-brand-red transition-colors">Contatti</a></li>
+                        <li class="mb-2"><a href="lavora_con_noi.html" class="hover:text-brand-red transition-colors">Lavora con noi</a></li>
+                        <li class="mb-2"><a href="indexSitoDalmass.html#privacy" class="hover:text-brand-red transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Colonna 3: Contatti -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contattaci</h4>
+                    <ul class="text-gray-400">
+                        <li class="mb-2 flex items-start">
+                            <ion-icon name="location-outline" class="text-xl mr-2 mt-1 text-brand-red"></ion-icon>
+                            <span>Via Crispi, 7<br>36075 Montecchio Maggiore (VI), Italia</span>
+                        </li>
+                        <li class="mb-2 flex items-center">
+                             <ion-icon name="call-outline" class="text-xl mr-2 text-brand-red"></ion-icon>
+                            <a href="tel:+390444695999" class="hover:text-brand-red">+39 0444695999</a>
+                        </li>
+                        <li class="mb-2 flex items-center">
+                            <ion-icon name="print-outline" class="text-xl mr-2 text-brand-red"></ion-icon>
+                            <span>Fax: +39 0444490573</span>
+                        </li>
+                        <li class="mb-2 flex items-center">
+                            <ion-icon name="mail-outline" class="text-xl mr-2 text-brand-red"></ion-icon>
+                            <a href="mailto:info@dalmassplastik.com" class="hover:text-brand-red">info@dalmassplastik.com</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Seguici</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors text-2xl"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors text-2xl"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors text-2xl"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-6 mt-8 text-center text-gray-500 text-sm">
+                <p>&copy; <span id="current-year"></span> Dalmass Plastik s.n.c. | P.IVA 00495240244 | C.FISCALE 00495240244 |Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            const currentYearEl = document.getElementById('current-year');
+            if (currentYearEl) {
+                currentYearEl.textContent = new Date().getFullYear();
+            }
+        });
+    </script>
+</body>
+</html>
+
