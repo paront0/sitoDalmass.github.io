@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "md5 di proprieta' di Pietro Dal Bosco: be25e3f51d5d22161ec31e973bb8a507">
     <title>Dalmass Plastik s.n.c. - Lavorazione Materie Plastiche</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -47,10 +48,10 @@
             <div class="hidden md:flex items-center space-x-8">
                 <a href="#home" class="text-gray-700 hover:text-brand-red transition duration-300 font-medium">HOME</a>
                 <a href="prodotti.html" class="text-gray-700 hover:text-brand-red transition duration-300 font-medium">PRODUZIONE</a>
+                <a href="privacy.html" class="text-gray-700 hover:text-brand-red transition duration-300 font-medium">PRIVACY</a>
 
                 <a href="#contatti" class="text-gray-700 hover:text-brand-red transition duration-300 font-medium">CONTATTI</a>
                 <a href="lavora_con_noi.html" class="text-gray-700 hover:text-brand-red transition duration-300 font-medium">LAVORA CON NOI</a>
-                <a href="#privacy" class="text-gray-700 hover:text-brand-red transition duration-300 font-medium">PRIVACY</a>
             </div>
             <div class="md:hidden">
                 <button id="mobile-menu-button" class="text-gray-700 focus:outline-none">
@@ -60,12 +61,10 @@
         </nav>
         <div id="mobile-menu" class="hidden md:hidden bg-white py-4">
              <a href="#home" class="block text-center text-gray-700 py-2 hover:bg-gray-100">HOME</a>
-			<a href="login.php" class="block text-center text-gray-700 py-2 hover:bg-gray-100">HOME</a>
             <a href="prodotti.html" class="block text-center text-gray-700 py-2 hover:bg-gray-100">PRODUZIONE</a>
-
+            <a href="privacy.html" class="block text-center text-gray-700 py-2 hover:bg-gray-100">PRIVACY</a>
             <a href="#contatti" class="block text-center text-gray-700 py-2 hover:bg-gray-100">CONTATTI</a>
             <a href="lavora_con_noi.html" class="block text-center text-gray-700 py-2 hover:bg-gray-100">LAVORA CON NOI</a>
-            <a href="#privacy" class="block text-center text-gray-700 py-2 hover:bg-gray-100">PRIVACY</a>
         </div>
     </header>
     <section class="bg-gray-100 border-b border-gray-200">
@@ -239,12 +238,48 @@
             </div>
         </section>
         
-        <section id="privacy" class="py-20 bg-white">
-             <div class="container mx-auto px-6 text-center">
-                <h2 class="text-4xl font-bold text-midnight-blue mb-4">Informativa sulla Privacy</h2>
-                <p class="text-gray-600 max-w-3xl mx-auto"></p>
-             </div>
-        </section>
+        <section id="privacy" class="py-20 bg-white border-t border-gray-200">
+    <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center justify-between bg-gray-50 rounded-lg p-8 md:p-12 shadow-sm border border-gray-100">
+            
+            <div class="md:w-2/3 mb-8 md:mb-0">
+                <div class="flex items-center mb-4">
+                    <div class="bg-midnight-blue p-3 rounded-full mr-4">
+                        <ion-icon name="shield-checkmark-outline" class="text-2xl text-white"></ion-icon>
+                    </div>
+                    <h2 class="text-3xl font-bold text-midnight-blue">Privacy e Trattamento Dati</h2>
+                </div>
+                
+                <p class="text-gray-600 text-lg mb-6">
+                    La tua privacy è fondamentale per noi. In linea con il Regolamento UE 2016/679 (GDPR), garantiamo la massima trasparenza nella gestione dei tuoi dati personali e dei Curricula inviati.
+                </p>
+
+                <ul class="space-y-3">
+                    <li class="flex items-start">
+                        <ion-icon name="checkmark-circle" class="text-brand-red text-xl mr-2 mt-1 flex-shrink-0"></ion-icon>
+                        <span class="text-gray-700"><strong>Dati protetti:</strong> I CV inviati sono accessibili solo al personale incaricato delle selezioni.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <ion-icon name="checkmark-circle" class="text-brand-red text-xl mr-2 mt-1 flex-shrink-0"></ion-icon>
+                        <span class="text-gray-700"><strong>Nessuna diffusione:</strong> I tuoi dati non verranno mai ceduti a terzi non autorizzati.</span>
+                    </li>
+                    <li class="flex items-start">
+                        <ion-icon name="checkmark-circle" class="text-brand-red text-xl mr-2 mt-1 flex-shrink-0"></ion-icon>
+                        <span class="text-gray-700"><strong>Controllo totale:</strong> Puoi richiedere la cancellazione dei tuoi dati in qualsiasi momento scrivendo ad <em>assunzione@dalmassplastik.com</em>.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="md:w-1/3 flex justify-center md:justify-end">
+                <a href="privacy.html" class="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white transition-all duration-200 bg-brand-red rounded-lg hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-600 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                    <span>Leggi l'Informativa Completa</span>
+                    <ion-icon name="arrow-forward-outline" class="ml-2 text-xl group-hover:translate-x-1 transition-transform"></ion-icon>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
 
     </main>
 
@@ -414,4 +449,5 @@
     </script>
 </body>
 </html>
+
 
